@@ -76,23 +76,22 @@ export const GronnWrit = (props: {
         {/* [SURREALIS-EDIT] - LORE */}
         {/* SURREALIS-EDIT - ORIGINAL */}
         {/*
-        That {subject} hath been seen upon these shores, sworn to the false
-        Four, refusing the holy chrism of the Tens.
+        That {subject}, sworn to the false Four and refusing the chrism of the
+        Tens, hath been seen upon these shores.
         */}
-        That {subject} hath been seen upon these shores, sworn to the false
-        Four, refusing the holy chrism of the Gods.
+        That {subject}, sworn to the false Four and refusing the chrism of the
+        Gods, hath been seen upon these shores.
         {/* [/SURREALIS-EDIT] */}
       </p>
       {crimes.length > 0 && (
         <>
           <p style={{ ...writParagraph, marginBottom: '4px' }}>
-            Whereof they stand accused of:
+            Whereof they stand accused:
           </p>
           <ul style={indictmentList}>
             {crimes.map((c, i) => (
               <li key={i} style={indictmentItem}>
                 {capitalize(c)}
-                {';'}
               </li>
             ))}
           </ul>
@@ -104,20 +103,18 @@ export const GronnWrit = (props: {
         {/*
         By writ of the {rulerTitle}, and by counsel of the Holy See, let{' '}
         {subject} be declared <span style={caputLupinum}>ANATHEMA</span>: cut
-        off from the body of the faithful, harboured by no temple, mourned by no
-        priest. Pursue them upon the strand and the cliff; let them not gain the
-        sea before steel finds them.
+        off from the body of the faithful. Let no temple harbour them. Pursue
+        them before they reach the sea.
         */}
         By writ of the {rulerTitle}, and by counsel of the Temple's priesthood,
         let {subject} be declared <span style={caputLupinum}>ANATHEMA</span>:
-        cut off from the body of the faithful, harboured by no temple, mourned
-        by no priest. Pursue them upon the strand and the cliff; let them not
-        gain the sea before steel finds them.
+        cut off from the body of the faithful. Let no temple harbour them.
+        Pursue them before they reach the sea.
         {/* [/SURREALIS-EDIT] */}
       </p>
       <p style={writParagraph}>
-        Upon their death the writ shall fall silent and mark itself; return it
-        then to the Contract Ledger, that the bounty of{' '}
+        Upon their death this writ shall mark itself. Return it then to the
+        Contract Ledger, that the sum of{' '}
         <RewardClause
           reward={reward}
           levyRate={levyRate}

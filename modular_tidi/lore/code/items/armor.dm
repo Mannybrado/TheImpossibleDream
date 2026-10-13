@@ -36,5 +36,9 @@
 	desc = "A coat of plates concealed beneath a heavy leather surcoat. Only the most battle-hardened of the Count's commanders can \
 	hope to bear its burden, both metaphorically and quite literally."
 
+/obj/item/clothing/suit/roguetown/armor/plate/fluted/donator_gothic_ornate
+	desc = "A magnificent ornate set of half-plated steel armor, assembled by a Pharovian mastersmith. The intricate fluting and interlocked plates are clear \
+	signs of its Grenzelhoftian heritage; expensive, but second-to-none when it comes to what truly matters in life."
+
 /obj/item/clothing/suit/roguetown/armor/plate/full/fluted/decorated
 	desc = "An ornate set of steel plate armor, decorated with golden fluting. For when you need to do something with all of that precious, precious wealth gathering dust in a fief's treasury."

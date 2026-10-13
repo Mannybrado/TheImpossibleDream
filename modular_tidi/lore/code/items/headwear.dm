@@ -11,3 +11,6 @@
 
 /obj/item/clothing/head/roguetown/priesthat
 	name = "pontifex's hat"
+
+/obj/item/clothing/head/roguetown/chaperon/noble/court
+	desc = "A noble's chaperon made for the courtiers of Pharos."

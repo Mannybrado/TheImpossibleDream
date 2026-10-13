@@ -10,7 +10,7 @@
 	desc = "A one-handed derivative of the mace, purpose-made to defeat armored opponents in battle. Paired nicely with a mug of the Pharos' finest zenny-liqour and a heater shield."
 
 /obj/item/rogueweapon/mace/warhammer/bronze/decorated
-	desc = "beads, silk, and gold caress this carved-and-spiked log; a honored totem who's roots trace back to the daes before Syon's impact. Myths speak of ancient elve-and-humen alike, wielding such bronzen bludgeons against the Anathema's rampaging hordes."
+	desc = "Beads, silk, and gold caress this carved-and-spiked log; a honored totem who's roots trace back to the daes before Syon's impact. Myths speak of ancient elve-and-humen alike, wielding such bronzen bludgeons against the Anathema's rampaging hordes."
 
 /obj/item/rogueweapon/contraption/linker/mace/decrepit
 	desc = "An ancient wrench, reinforced with rotted metal. Once a tool of the Demiurge's reign, repurposed into little more than a cudgel"

@@ -11,3 +11,4 @@
 	roguetraits[TRAIT_AGENT_CHURCH] = span_info("I am a Benefactor of the Temple of the Pantheon. The faithful know my name.")
 	roguetraits[TRAIT_HERESIARCH] = span_warning("I've been touched by the truth of Psydonia. Lyfe as we understand cannot persist under the Pentacle or the pretense of Psydon. Something must change.")
 	roguetraits[TRAIT_BLACKOAK] = span_warning("The Black Oaks can spot <b>any</b> foreigners and outsiders, no matter how long they've lived in the Pharos. I can spot an invader at a glance.")
+	roguetraits[TRAIT_WELLKNOWN] = span_info("My face and name are known; the people of Pharos, for better or worse, know who I am.")

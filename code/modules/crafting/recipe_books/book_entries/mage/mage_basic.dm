@@ -2,6 +2,7 @@
 	name = "Chapter I: Leylines and Encounters"
 	category = "Instructions"
 
+/// [SURREALIS-EDITED] - LORE
 /datum/book_entry/magic1/inner_book_html(mob/user)
 	return {"
 	<div>
@@ -48,10 +49,7 @@
 	<p>
 		Matching a ritual's realm to the leyline's alignment gives the full number of creatures.
 		Using a mismatched leyline results in fewer creatures spawning. Choose your leylines wisely.
-		<!-- \[SURREALIS-EDIT\] - LORE -->
-		<!-- The Terrorbog, where Comet SYON has landed - is known for its powerful leylines where one can draw out SURREALIS-EDIT - ORIGINAL -->
 		The Terrorbog, where the Scar's touch is harshest - is known for its powerful leylines where one can draw out\
-		<!-- \[/SURREALIS-EDIT\] -->
 		leyline lycans and void creechurs alike. A summoning of the wrong alignment would still draw the normal amount\
 		of creechurs out - thanks to the leylines power.
 	</p>

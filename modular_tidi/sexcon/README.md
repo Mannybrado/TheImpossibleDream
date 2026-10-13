@@ -4,6 +4,8 @@
 
 **Created in:** https://github.com/Shadow-Fragger-Metaclique-Gang/TheImpossibleDream/pull/23
 
+**RELATED PRS:** https://github.com/Shadow-Fragger-Metaclique-Gang/TheImpossibleDream/pull/38
+
 **Major changes:**
 
 ## Sexcon One
@@ -24,6 +26,8 @@ Here's a non exhaustive list of things included in the module:
 - Emberwine.
 - Bondage stuff.
 - Extra massive size for pintles, purchaseable with triumphs per spawn with it. Hey, I had to add something self-serving after porting chastity.
+- Microdicks including their double arousal gain and halved arousal give (you prejac but they don't feel all that much).
+- Marvscream on shock. This was originally bundled with the chastity PR on ratwood.
 
 ## Layout
 

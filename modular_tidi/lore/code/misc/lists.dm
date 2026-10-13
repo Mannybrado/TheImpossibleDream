@@ -7,3 +7,6 @@
 	bandit_severities["BOOGEYMAN"] = "Pharovian Boogeyman"
 	bandit_bounty_severities["BUTCHER"]["name"] = "Scarcarver"
 	bandit_bounty_severities["BOOGEYMAN"]["name"] = "Pharovian Boogeyman"
+	var/bathtub = atc_seizure_inventory.Find("the Grand Duke's gilded bathtub")
+	if(bathtub)
+		atc_seizure_inventory[bathtub] = "the Count's gilded bathtub"

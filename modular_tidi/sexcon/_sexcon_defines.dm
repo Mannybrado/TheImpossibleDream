@@ -5,7 +5,8 @@
 
 #define COMSIG_LIVING_ATTACKED_BY "living_attacked_by"
 
-#define MIN_PENIS_SIZE 1
+#define MIN_PENIS_SIZE 0
+#define SMALL_PENIS_SIZE 1
 #define MAX_PENIS_SIZE 3
 #define DEFAULT_PENIS_SIZE 2
 
@@ -51,7 +52,8 @@
 #define EARS_SENSITIVE 1 //Should this be used for ANYTHING else - move it. / Also only works on ANTHROS for some reason
 
 #define PENIS_SIZES_BY_NAME list(\
-	"Small" = MIN_PENIS_SIZE,\
+	"Tiny" = MIN_PENIS_SIZE,\
+	"Small" = SMALL_PENIS_SIZE,\
 	"Average" = DEFAULT_PENIS_SIZE,\
 	"Large" = MAX_PENIS_SIZE,\
 	)
@@ -120,8 +122,6 @@
 #define ORGAN_SLOT_VAGINA "vagina"
 
 #define BODYPART_FEATURE_CHASTITY "chastity"
-#define BODYPART_FEATURE_PUBES "pubes"
-#define BODYPART_FEATURE_PITS "pits"
 
 #define BODY_HAIR_MATERIAL_HAIR 1
 #define BODY_HAIR_MATERIAL_FUR 2

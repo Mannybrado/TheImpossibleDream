@@ -37,14 +37,16 @@
 	var/adjective
 	var/arousal_modifier
 	switch(penis.penis_size)
-		if(1)
-			adjective = "a small"
-		if(2)
-			adjective = "an average"
-		if(3)
-			adjective = "a large"
+		if(MIN_PENIS_SIZE)
+			adjective = pick("a tiny","a pathetic","a micro","a worthless","an ornamental","a laughably small","a uselessly small")
+		if(SMALL_PENIS_SIZE)
+			adjective = pick("a small","a below-average","an unimpressive","a civilized","an aristocratic","a petite","a compact")//civilized as in greek, think michelangelo's david
+		if(DEFAULT_PENIS_SIZE)
+			adjective = pick("an average","a middling","a modest","a standard","an unremarkable","a fair","a medium")
+		if(MAX_PENIS_SIZE)
+			adjective = pick("a large","a hefty","a sizeable","a thick","a beefy","a considerably-sized","a fat")
 	if(penis.massive)
-		adjective = "a massive"
+		adjective = pick("a massive","a colossal","an unpleasently large","a jumbo","a grotesquely swelled","an obscene","an unnaturally large")
 	if(H.sexcon)
 		switch(H.sexcon.arousal)
 			if(80 to INFINITY)
@@ -63,9 +65,11 @@
 			if(SHEATH_TYPE_NORMAL)
 				if(penis.massive)
 					used_name = "a bulging sheath"
-				else if(penis.penis_size == 3)
+				else if(penis.penis_size == MAX_PENIS_SIZE)
 					used_name = "a fat sheath"
-				else if(penis.penis_size == 1)
+				else if(penis.penis_size == MIN_PENIS_SIZE)
+					used_name = "a tiny sheath"
+				else if(penis.penis_size == SMALL_PENIS_SIZE)
 					used_name = "a meager sheath"
 				else
 					used_name = "a sheath"
