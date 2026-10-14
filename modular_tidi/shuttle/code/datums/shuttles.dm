@@ -24,6 +24,7 @@
 	shuttle_id = "[port_id]_[suffix]"
 	mappath = "[prefix][shuttle_id].dmm"
 	. = ..()
+	SSmapping.shuttle_templates[shuttle_id] = src
 
 /datum/map_template/shuttle/preload_size(path, cache)
 	. = ..(path, TRUE) // Done this way because we still want to know if someone actualy wanted to cache the map
