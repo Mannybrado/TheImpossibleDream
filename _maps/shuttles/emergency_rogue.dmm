@@ -1,0 +1,60 @@
+"a" = (/obj/structure/fluff/railing/border{dir = 6},/turf/open/floor/rogue/ruinedwood,/area/shuttle/escape)
+"b" = (/obj/machinery/light/rogue/firebowl,/turf/open/floor/rogue/ruinedwood/turned,/area/shuttle/escape)
+"c" = (/obj/structure/mineral_door/wood/donjon{dir = 1; lockid = "lord"; opacity = 0},/turf/open/floor/rogue/woodturned,/area/shuttle/escape)
+"d" = (/obj/effect/decal/cobbleedge{dir = 1; icon_state = "borderfall"},/turf/open/floor/rogue/ruinedwood,/area/shuttle/escape)
+"f" = (/turf/template_noop,/area/template_noop)
+"g" = (/obj/structure/fluff/railing/border{dir = 10},/turf/open/floor/rogue/ruinedwood/turned,/area/shuttle/escape)
+"h" = (/obj/effect/decal/cobbleedge{dir = 1; icon_state = "borderfall"},/turf/open/floor/rogue/ruinedwood/turned,/area/shuttle/escape)
+"i" = (/obj/structure/fluff/railing/border{dir = 4},/obj/structure/fluff/railing/border,/turf/open/floor/rogue/ruinedwood/turned,/area/shuttle/escape)
+"j" = (/obj/structure/table/wood{icon_state = "longtable"},/turf/open/floor/rogue/wood/nosmooth,/area/shuttle/escape)
+"m" = (/obj/structure/closet/crate/chest,/turf/open/floor/rogue/wood/nosmooth,/area/shuttle/escape)
+"o" = (/obj/structure/fluff/railing/border{dir = 8},/obj/structure/fluff/railing/border,/turf/open/floor/rogue/ruinedwood/turned,/area/shuttle/escape)
+"p" = (/obj/structure/fluff/railing/border{dir = 4},/turf/open/floor/rogue/ruinedwood,/area/shuttle/escape)
+"q" = (/obj/structure/boatbell/escape{pixel_y = 32; pixel_x = -2},/turf/open/floor/rogue/wood/nosmooth,/area/shuttle/escape)
+"r" = (/turf/open/floor/rogue/wood/nosmooth,/area/shuttle/escape)
+"s" = (/obj/structure/fluff/walldeco/customflag{pixel_y = 32},/turf/open/floor/rogue/wood/nosmooth,/area/shuttle/escape)
+"t" = (/obj/structure/table/wood{icon_state = "longtable"; dir = 1},/turf/open/floor/rogue/wood/nosmooth,/area/shuttle/escape)
+"u" = (/obj/docking_port/mobile/emergency{name = "Box emergency shuttle"; width = 16; pixel_x = -1; preferred_direction = 2; dwidth = 8; port_direction = 4},/turf/open/floor/rogue/ruinedwood/turned,/area/shuttle/escape)
+"v" = (/obj/structure/fluff/railing/border{dir = 8},/turf/open/floor/rogue/ruinedwood,/area/shuttle/escape)
+"w" = (/obj/effect/decal/cobbleedge{icon_state = "jagged"; dir = 4},/obj/structure/fluff/railing/border{dir = 4},/obj/structure/fluff/railing/border{dir = 8},/turf/open/floor/rogue/wood,/area/shuttle/escape)
+"x" = (/obj/structure/fluff/railing/border{dir = 10},/turf/open/floor/rogue/ruinedwood,/area/shuttle/escape)
+"y" = (/obj/structure/stairs{dir = 1},/turf/open/floor/rogue/ruinedwood/turned,/area/shuttle/escape)
+"z" = (/obj/effect/decal/cobbleedge{icon_state = "jagged"; dir = 4},/obj/structure/fluff/railing/border{dir = 4},/obj/structure/fluff/railing/border{dir = 8},/turf/open/floor/rogue/ruinedwood,/area/shuttle/escape)
+"A" = (/obj/structure/fluff/railing/border{dir = 8},/obj/effect/decal/cobbleedge{dir = 1; icon_state = "borderfall"},/turf/open/floor/rogue/ruinedwood/turned,/area/shuttle/escape)
+"B" = (/obj/structure/table/wood{icon_state = "longtable_mid"; dir = 1},/turf/open/floor/rogue/wood/nosmooth,/area/shuttle/escape)
+"C" = (/obj/structure/fluff/railing/border{dir = 6},/turf/open/floor/rogue/ruinedwood/turned,/area/shuttle/escape)
+"D" = (/obj/structure/fluff/walldeco/customflag{pixel_y = 32},/obj/effect/decal/cobbleedge{dir = 1; icon_state = "borderfall"},/turf/open/floor/rogue/ruinedwood,/area/shuttle/escape)
+"E" = (/obj/structure/closet/crate/roguecloset/lord,/obj/item/rogueweapon/huntingknife/idagger/steel/special,/turf/open/floor/rogue/wood/nosmooth,/area/shuttle/escape)
+"F" = (/turf/closed/wall/mineral/rogue/wooddark,/area/shuttle/escape)
+"G" = (/obj/structure/fluff/railing/border{dir = 4},/obj/structure/fluff/railing/border,/turf/open/floor/rogue/ruinedwood,/area/shuttle/escape)
+"H" = (/obj/structure/fluff/railing/border{dir = 8},/obj/structure/fluff/railing/border,/turf/open/floor/rogue/ruinedwood,/area/shuttle/escape)
+"J" = (/turf/open/floor/rogue/wood,/area/shuttle/escape)
+"K" = (/turf/open/floor/rogue/ruinedwood,/area/shuttle/escape)
+"M" = (/turf/closed/wall/mineral/rogue/wood,/area/shuttle/escape)
+"N" = (/obj/effect/decal/cobbleedge{icon_state = "jagged"; dir = 4},/obj/structure/fluff/railing/border{dir = 4},/obj/structure/fluff/railing/border{dir = 8},/obj/structure/fluff/railing/border{layer = 2.8},/turf/open/floor/rogue/wood,/area/shuttle/escape)
+"O" = (/obj/structure/roguewindow,/turf/open/floor/rogue/ruinedwood/turned,/area/shuttle/escape)
+"P" = (/obj/structure/fluff/railing/border,/turf/open/floor/rogue/ruinedwood,/area/shuttle/escape)
+"R" = (/obj/structure/roguewindow/openclose,/turf/open/floor/rogue/ruinedwood,/area/shuttle/escape)
+"S" = (/obj/machinery/light/rogue/candle,/turf/open/floor/rogue/wood,/area/shuttle/escape)
+"T" = (/obj/effect/decal/cobbleedge{dir = 1; icon_state = "borderfall"},/obj/structure/fluff/walldeco/customflag{pixel_y = 32},/turf/open/floor/rogue/ruinedwood,/area/shuttle/escape)
+"Y" = (/obj/structure/fluff/railing/border{dir = 4},/obj/effect/decal/cobbleedge{dir = 1; icon_state = "borderfall"},/turf/open/floor/rogue/ruinedwood/turned,/area/shuttle/escape)
+"Z" = (/turf/open/floor/rogue/ruinedwood/turned,/area/shuttle/escape)
+
+(1,1,1) = {"
+ffMRMMMRMff
+fMMrsqsrMMf
+fMSrjBtrSMf
+fMJrrrrrJMf
+fMJrrmErJMf
+MMcFOFOFcMM
+ADyhhdhhyTY
+ZKZZZFZZZKZ
+uKZZZKZZZKZ
+oxZZZKZZZai
+fvZZbFbZZpf
+fHgZZKZZCGf
+ffHgZKZCGff
+fffgKzKCfff
+fffoPwPifff
+fffffNfffff
+"}
