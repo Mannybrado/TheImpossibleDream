@@ -856,6 +856,7 @@
 			var/area/newarea = get_area(src)
 			if((get_area(M) == newarea) && M.stat != DEAD)
 				M.adjust_triumphs(1)
+	SSticker.force_ending = 1
 
 /obj/docking_port/mobile/pod/on_emergency_dock()
 	..()

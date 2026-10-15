@@ -116,15 +116,15 @@ SUBSYSTEM_DEF(shuttle)
 
 	if(!SSmapping.clearing_reserved_turfs)
 		while(transit_requesters.len)
-			//var/requester = popleft(transit_requesters)
-			//var/success = generate_transit_dock(requester)
-			//if(!success) // BACK OF THE QUEUE
-			//	transit_request_failures[requester]++
-			//	if(transit_request_failures[requester] < MAX_TRANSIT_REQUEST_RETRIES)
-			//		transit_requesters += requester
-			//	else
-			//		var/obj/docking_port/mobile/M = requester
-			//		M.transit_failure()
+			var/requester = popleft(transit_requesters)
+			var/success = generate_transit_dock(requester)
+			if(!success) // BACK OF THE QUEUE
+				transit_request_failures[requester]++
+				if(transit_request_failures[requester] < MAX_TRANSIT_REQUEST_RETRIES)
+					transit_requesters += requester
+				else
+					var/obj/docking_port/mobile/M = requester
+					M.transit_failure()
 			if(MC_TICK_CHECK)
 				break
 
@@ -362,12 +362,12 @@ SUBSYSTEM_DEF(shuttle)
 	else
 		if(!(M in transit_requesters))
 			transit_requesters += M
-/*
+
 /datum/controller/subsystem/shuttle/proc/generate_transit_dock(obj/docking_port/mobile/M)
 	// First, determine the size of the needed zone
 	// Because of shuttle rotation, the "width" of the shuttle is not
 	// always x.
-	//var/travel_dir = M.preferred_direction
+	var/travel_dir = M.preferred_direction
 	// Remember, the direction is the direction we appear to be
 	// coming from
 	var/dock_angle = dir2angle(M.preferred_direction) + dir2angle(M.port_direction) + 180
@@ -386,10 +386,10 @@ SUBSYSTEM_DEF(shuttle)
 			transit_width += M.height
 			transit_height += M.width
 
-
+/*
 	to_chat(world, "The attempted transit dock will be [transit_width] width, and \)
 		[transit_height] in height. The travel dir is [travel_dir]."
-
+*/
 
 	var/transit_path = /turf/open/space/transit
 	switch(travel_dir)
@@ -402,7 +402,7 @@ SUBSYSTEM_DEF(shuttle)
 		if(WEST)
 			transit_path = /turf/open/space/transit/west
 
-	//var/datum/turf_reservation/proposal = SSmapping.RequestBlockReservation(transit_width, transit_height, null, /datum/turf_reservation/transit, transit_path)
+	var/datum/turf_reservation/proposal = SSmapping.RequestBlockReservation(transit_width, transit_height, null, /datum/turf_reservation/transit, transit_path)
 
 	if(!istype(proposal))
 		return FALSE
@@ -410,12 +410,12 @@ SUBSYSTEM_DEF(shuttle)
 	var/turf/bottomleft = locate(proposal.bottom_left_coords[1], proposal.bottom_left_coords[2], proposal.bottom_left_coords[3])
 	// Then create a transit docking port in the middle
 	var/coords = M.return_coords(0, 0, dock_dir)
-	//    0------2
-    //    |      |
-    //    |      |
-    //    |  x   |
-    //    3------1
-
+	/*  0------2
+        |      |
+        |      |
+        |  x   |
+        3------1
+	*/
 
 	var/x0 = coords[1]
 	var/y0 = coords[2]
@@ -433,7 +433,6 @@ SUBSYSTEM_DEF(shuttle)
 	if(!midpoint)
 		return FALSE
 	var/area/shuttle/transit/A = new()
-	//A.parallax_movedir = travel_dir
 	A.contents = proposal.reserved_turfs
 	var/obj/docking_port/stationary/transit/new_transit_dock = new(midpoint)
 	new_transit_dock.reserved_area = proposal
@@ -446,7 +445,7 @@ SUBSYSTEM_DEF(shuttle)
 
 	M.assigned_transit = new_transit_dock
 	return new_transit_dock
-*/
+
 /datum/controller/subsystem/shuttle/Recover()
 	if (istype(SSshuttle.mobile))
 		mobile = SSshuttle.mobile

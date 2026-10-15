@@ -1360,7 +1360,10 @@
 /area/rogue/indoors/lich_start/lich_lair)
 "pL" = (
 /obj/docking_port/stationary/transit{
-	dir = 4
+	dir = 4;
+	width = 16;
+	dheight = 7;
+	height = 11
 	},
 /turf/open/water/swamp,
 /area/rogue/outdoors)

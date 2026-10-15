@@ -3,10 +3,11 @@
 	desc = "This zeppelin spells the doom of Pharos. The bell being rung will naturally incite panic in everyone, as many fear the fate of many lordless border castles should they stay."
 	var/bribe = 0
 	var/bribeprice = 500
+	icon = 'modular_tidi/shuttle/icons/structure.dmi'
 	icon_state = "boatbell"
 
 /obj/structure/boatbell/escape/Initialize()
-	bribeprice = rand(300,700)
+	bribeprice = rand(500,1000)
 	. = ..()
 
 
@@ -36,7 +37,7 @@
 		if(user.mind.has_antag_datum(/datum/antagonist/skeleton))
 			realbribe = 0
 	if(bribe < realbribe)
-		to_chat(user, "<span class='warning'>Not enough mammon to make the navigators betray the schedule.</span>")
+		to_chat(user, "<span class='warning'>Not enough mammon to make the navigators betray the schedule. Insert more mammon.</span>")
 		return
 //	SSshuttle.requestEvac(user, href_list["call"])
 	if(SSshuttle.emergency.mode != SHUTTLE_DOCKED)
@@ -52,7 +53,7 @@
 //		if(SSshuttle.emergency.timer < 5 MINUTES)
 //			priority_announce("The launch was aborted.")
 //		else
-		priority_announce("A terrible noise tells me that the Duke\'s ventilated airship is preparing to depart. 5 minutes remain.", null, 'modular_tidi/shuttle/sound/boatwarn.ogg')
+		priority_announce("A terrible noise tells me that the Count\'s airship is preparing to depart. 5 minutes remain.", null, 'modular_tidi/shuttle/sound/boatwarn.ogg')
 		SSshuttle.emergency.earlyLaunch = TRUE
 		SSshuttle.emergency.setTimer(5 MINUTES)
 //	SSshuttle.moveShuttle("supply", "supply_away", TRUE)

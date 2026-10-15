@@ -3765,6 +3765,8 @@
 #include "modular_tidi\shuttle\code\datums\shuttles.dm"
 #include "modular_tidi\shuttle\code\shuttle\areas.dm"
 #include "modular_tidi\shuttle\code\shuttle\bell.dm"
+#include "modular_tidi\shuttle\code\shuttle\objects_and_turfs.dm"
+#include "modular_tidi\shuttle\code\shuttle\transit.dm"
 #include "modular_tidi\shuttle\code\shuttle\subsystems\atoms.dm"
 #include "modular_tidi\shuttle\code\shuttle\subsystems\shuttle.dm"
 #include "modular_tidi\shuttle\code\shuttle-modules\docking.dm"
