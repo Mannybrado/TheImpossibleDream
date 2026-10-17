@@ -1,6 +1,8 @@
 /turf/open/space/transit
 	name = "\proper sky"
-	icon_state = "black"
+	icon = 'icons/turf/roguefloor.dmi'
+	icon_state = "undervoid"
+	desc = "I should stay away if I don't want to die a very violent, but funny death."
 	dir = SOUTH
 	baseturfs = /turf/open/space/transit
 	flags_1 = NOJAUNT_1 //This line goes out to every wizard that ever managed to escape the den. I'm sorry.

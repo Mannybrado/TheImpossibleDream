@@ -5,8 +5,8 @@
 /area/shuttle
 	name = "Shuttle"
 	requires_power = FALSE
-	dynamic_lighting = DYNAMIC_LIGHTING_FORCED
-	always_unpowered = FALSE
+	dynamic_lighting = DYNAMIC_LIGHTING_DISABLED
+	always_unpowered = TRUE
 	valid_territory = FALSE
 	icon_state = "shuttle"
 	// Loading the same shuttle map at a different time will produce distinct area instances.

@@ -1,8 +1,7 @@
 "b" = (/obj/structure/mineral_door/metaldoor{lockid = "manor"},/turf/open/floor/rogue/metal/barograte/open,/area/shuttle/escape)
 "d" = (/obj/structure/chair/stool/rogue,/turf/open/floor/rogue/metal/barograte,/area/shuttle/escape)
 "f" = (/turf/template_noop,/area/template_noop)
-"g" = (/obj/machinery/light/rogue/candle/blue,/turf/open/floor/rogue/metal/barograte,/area/shuttle/escape)
-"h" = (/obj/structure/chair/wood/rogue/chair3,/obj/machinery/light/rogue/candle/blue,/turf/open/floor/rogue/metal/barograte,/area/shuttle/escape)
+"h" = (/obj/structure/chair/wood/rogue/chair3,/turf/open/floor/rogue/metal/barograte,/area/shuttle/escape)
 "i" = (/obj/structure/fluff/walldeco/stone,/turf/closed/wall/mineral/rogue/metal,/area/shuttle/escape)
 "j" = (/obj/structure/table/wood{icon_state = "longtable"},/turf/open/floor/rogue/wood/nosmooth,/area/shuttle/escape)
 "m" = (/obj/structure/closet/crate/chest,/turf/open/floor/rogue/metal,/area/shuttle/escape)
@@ -13,22 +12,18 @@
 "t" = (/obj/structure/table/wood{icon_state = "longtable"; dir = 1},/turf/open/floor/rogue/wood/nosmooth,/area/shuttle/escape)
 "u" = (/obj/docking_port/mobile/emergency{name = "Box emergency shuttle"; width = 16; pixel_x = -1; preferred_direction = 2; dwidth = 8; port_direction = 4},/turf/open/floor/rogue/metal/barograte/open,/area/shuttle/escape)
 "v" = (/turf/closed/wall/mineral/rogue/pipe,/area/shuttle/escape)
-"w" = (/obj/machinery/light/rogue/torchholder/l,/turf/open/floor/rogue/metal/barograte/open,/area/shuttle/escape)
 "x" = (/turf/open/floor/rogue/metal/barograte/open,/area/shuttle/escape)
 "z" = (/obj/structure/fluff/walldeco/wallshield{pixel_y = 32},/turf/open/floor/rogue/wood/nosmooth,/area/shuttle/escape)
 "A" = (/obj/structure/chair/wood/rogue/chair3{dir = 4},/turf/open/floor/rogue/metal/barograte,/area/shuttle/escape)
 "B" = (/obj/structure/table/wood{icon_state = "longtable_mid"; dir = 1},/turf/open/floor/rogue/wood/nosmooth,/area/shuttle/escape)
-"C" = (/obj/structure/chair/stool/rogue,/obj/machinery/light/rogue/candle/blue,/turf/open/floor/rogue/metal/barograte,/area/shuttle/escape)
-"D" = (/obj/machinery/light/rogue/torchholder/r,/turf/open/floor/rogue/metal/barograte/open,/area/shuttle/escape)
 "E" = (/turf/open/floor/rogue/metal,/area/shuttle/escape)
 "F" = (/turf/closed/wall/mineral/rogue/pipe/line,/area/shuttle/escape)
 "J" = (/turf/closed/wall/mineral/rogue/metal,/area/shuttle/escape)
 "K" = (/turf/open/floor/rogue/metal/barograte,/area/shuttle/escape)
-"M" = (/obj/structure/chair/wood/rogue/chair4{dir = 8},/obj/machinery/light/rogue/candle/blue,/turf/open/floor/rogue/wood/nosmooth,/area/shuttle/escape)
+"M" = (/obj/structure/chair/wood/rogue/chair4{dir = 8},/turf/open/floor/rogue/wood/nosmooth,/area/shuttle/escape)
 "N" = (/obj/structure/closet/crate/roguecloset/lord,/obj/item/rogueweapon/huntingknife/idagger/steel/special,/turf/open/floor/rogue/metal,/area/shuttle/escape)
 "O" = (/obj/structure/mineral_door/metaldoor{lockid = "royal"; locked = 1},/turf/open/floor/rogue/metal/barograte/open,/area/shuttle/escape)
 "R" = (/obj/structure/chair/wood/rogue/chair4{dir = 4},/turf/open/floor/rogue/wood/nosmooth,/area/shuttle/escape)
-"S" = (/obj/machinery/light/rogue/candle/blue,/turf/open/floor/rogue/wood/nosmooth,/area/shuttle/escape)
 "T" = (/obj/structure/fluff/walldeco/customflag{pixel_y = 32},/turf/open/floor/rogue/metal/barograte/open,/area/shuttle/escape)
 "Y" = (/obj/structure/fluff/railing/border{dir = 4},/turf/open/floor/rogue/metal/barograte/open,/area/shuttle/escape)
 "Z" = (/obj/structure/chair/wood/rogue/chair3{dir = 8},/turf/open/floor/rogue/metal/barograte,/area/shuttle/escape)
@@ -36,16 +31,16 @@
 (1,1,1) = {"
 ffJJJJJJJff
 fJJzsqsrJJf
-fJSrjBtrMJf
+fJrrjBtrMJf
 fJRrrrrrrJf
 fJJEEmENJJf
 JJJJOvOJJJJ
 oTJhKFKhJTY
-xDJKKFKKJwx
+xxJKKFKKJxx
 uxOKKFKKOxx
 oxJAKFKZJxY
 JJJibvbiJJJ
-fJgdKKKKCJf
+fJKdKKKKdJf
 fJKKKKKKKJf
 fJdKdKdKdJf
 fJJJJJJJJJf
